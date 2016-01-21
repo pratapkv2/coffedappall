@@ -2,8 +2,11 @@
 	{% block main_content %}
 		<div class="row main-content">
 		    <div class="col-md-2"></div>
+
 		    <div class="col-md-8">
+
 		        <div class="">
+
 					<div class="col-md-8">
 						<h3><a href="{{ location.get_absolute_url }}">{{ location.title }}</a></h3>
 					</div>
@@ -17,6 +20,7 @@
 						{% if location.image_file %}
 							<img class="img-responsive" src="{{ location.image_file.url }}"></img>
 						{% endif %}
+
 					</div>
 					<div class="col-md-12 text-right">
 						<a type="button" href="{% url 'location_update' pk=location.id %}" class="btn btn-default pull-right">Edit</a>
@@ -31,7 +35,9 @@
 						{% include 'base/review.html' with location=location %}
 						{% endfor %}
 					</div>
+
 		    	</div>
+
 		    <div class="col-md-2"></div>
 		</div>
 	{% endblock %}
