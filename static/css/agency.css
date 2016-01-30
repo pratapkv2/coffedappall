@@ -969,6 +969,7 @@ color: #d4a432;
 cursor: not-allowed;
 background-color: #fff;
 border-color: #ddd;
+
 }
 
 header .intro-text .intro-lead-in {
@@ -1032,6 +1033,9 @@ h3 a {
     border-radius: 0px;
 }
 
-.wide-map { 
-    height:400px;
+/*#map .wide-map {
+    height: 21em;    
+
+}*/
+
 }

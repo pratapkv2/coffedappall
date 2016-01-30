@@ -21,6 +21,8 @@ class LandingView(TemplateView):
 class LocationListView(ListView):
 	model = coremodels.Location
 	template_name = 'location/list.html'
+	paginate_by = 5
+
 
 #class LocationListView(ListView):
 #    model = coremodels.Location

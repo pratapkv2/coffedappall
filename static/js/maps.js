@@ -19,7 +19,6 @@
 	 });
 	 map.fitZoom();
 });*/
-
  $( document ).ready(function() {
  var map = new GMaps({
  el: '#map',
